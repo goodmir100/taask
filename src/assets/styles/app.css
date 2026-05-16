@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  overflow: hidden;
+  background: #0f172a;
+}
+
+.auth-page {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.55),
+      rgba(0,0,0,0.55)
+    ),
+    url('/images/wallpaper.jpg');
+
+  background-size: cover;
+  background-position: center;
+}
+
+.auth-box {
+  width: 380px;
+
+  background: rgba(23, 33, 43, 0.95);
+
+  padding: 35px;
+
+  border-radius: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 10px 40px rgba(0,0,0,0.35);
+}
+
+.auth-box h1 {
+  color: white;
+
+  text-align: center;
+
+  font-size: 40px;
+
+  margin-bottom: 10px;
+}
+
+.auth-box input {
+  width: 100%;
+
+  padding: 15px 18px;
+
+  border: none;
+  outline: none;
+
+  border-radius: 14px;
+
+  background: #242f3d;
+  color: white;
+
+  font-size: 15px;
+}
+
+.auth-box button {
+  width: 100%;
+
+  padding: 15px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: #2aabee;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.auth-box button:hover {
+  opacity: 0.85;
+}
+
+.app {
+  display: flex;
+
+  width: 100%;
+  height: 100vh;
+}
+
+
+.chat-container {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.25),
+      rgba(0,0,0,0.25)
+    ),
+    url('/images/wallpaper.jpg');
+
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,25 @@
+.header {
+  height: 70px;
+  background: #17212b;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 0 20px;
+
+  color: white;
+
+  border-bottom: 1px solid #2a3942;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.header span {
+  color: #8b9bab;
+  font-size: 14px;
+}
